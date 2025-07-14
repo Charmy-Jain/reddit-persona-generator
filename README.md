@@ -21,3 +21,24 @@ This project scrapes a Reddit user's public posts and comments, then generates a
 - `dotenv` for environment variable handling
 
 ---
+
+## 📦 Installation
+
+1. **Clone this repo**
+   ```bash
+   git clone https://github.com/your-username/reddit-persona-generator.git
+   cd reddit-persona-generator
+
+2. **Create and activate a virtual environment**
+    python -m venv venv
+    
+3. **Install Dependencies**
+    pip install -r requirements.txt
+
+4. **Create a .env File in the Root Folder**
+    CLIENT_ID=your_reddit_client_id
+    CLIENT_SECRET=your_reddit_client_secret
+    USER_AGENT=script by u/your_reddit_username
+    OPENAI_API_KEY=your_openai_api_key
+
+
