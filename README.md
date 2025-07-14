@@ -30,9 +30,11 @@ This project scrapes a Reddit user's public posts and comments, then generates a
    cd reddit-persona-generator
 
 2. **Create and activate a virtual environment**
+    ```bash
     python -m venv venv
     
 3. **Install Dependencies**
+    ```bash
     pip install -r requirements.txt
 
 4. **Create a .env File in the Root Folder**
